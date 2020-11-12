@@ -14,6 +14,10 @@ body {
     width: 150%;
   }
 
+  #titulo {
+    text-shadow: 1px 1px 2px black; 
+  }
+
   @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
   html, body{
@@ -22,7 +26,7 @@ body {
   }
   
   body{
-    background: #030321;
+    background: rgb(5, 83, 5);
     font-family: Arial;
   }
   
@@ -30,21 +34,21 @@ body {
       display: block;
       font: 10.5em 'Montserrat';
       width: 960px;
-      height: 300px;
-      margin: 0 auto;
+      height: 260px;
+      margin: 50px auto;
   }
   
   .text-copy {
       fill: none;
       stroke: white;
       stroke-dasharray: 6% 29%;
-      stroke-width: 5px;
+      stroke-width: 8px;
       stroke-dashoffset: 0%;
       animation: stroke-offset 5.5s infinite linear;
   }
 
   .text-copy:nth-child(1){
-    stroke: green;
+    stroke: yellow;
     animation-delay: -1;
   }
   
@@ -64,7 +68,7 @@ body {
   }
   
   .text-copy:nth-child(5){
-    stroke: yellow;
+    stroke: red;
     animation-delay: -5s;
   }
   
